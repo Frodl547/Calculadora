@@ -1,0 +1,27 @@
+﻿<Window x:Class="calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="358" Width="423.5" ResizeMode="CanMinimize" KeyDown="Window_KeyDown">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Height="333" VerticalAlignment="Top" Margin="0,0,-6,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="resultado" HorizontalAlignment="Left" Height="59" Margin="8,10,0,0" TextWrapping="Wrap" Width="392" Background="#FFD8D8D8" FontSize="40" IsHitTestVisible="False" Focusable="False" AllowDrop="False" IsTabStop="False" VerticalAlignment="Top" HorizontalContentAlignment="Right" Text="0"/>
+        <Button x:Name="quatro" Content="4" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="98" Height="48" FontSize="28" BorderBrush="#FF99B4D1" Click="quatro_Click" Background="{x:Null}"/>
+        <Button x:Name="um" Content="1" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Width="98" Height="49" FontSize="28" BorderBrush="#FF99B4D1" Click="um_Click" Background="{x:Null}"/>
+        <Button x:Name="sete" Content="7" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Width="98" Height="48" FontSize="28" BorderBrush="#FF99B4D1" Click="sete_Click" Background="{x:Null}"/>
+        <Button x:Name="cinco" Content="5" HorizontalAlignment="Left" Margin="108,147,0,0" VerticalAlignment="Top" Width="98" Height="48" FontSize="28" BorderBrush="#FF99B4D1" Click="cinco_Click" Background="{x:Null}"/>
+        <Button x:Name="dois" Content="2" HorizontalAlignment="Left" Margin="108,196,0,0" VerticalAlignment="Top" Width="98" Height="49" FontSize="28" BorderBrush="#FF99B4D1" Click="dois_Click" Background="{x:Null}"/>
+        <Button x:Name="oito" Content="8" HorizontalAlignment="Left" Margin="108,99,0,0" VerticalAlignment="Top" Width="98" Height="48" FontSize="28" BorderBrush="#FF99B4D1" Click="oito_Click" Background="{x:Null}"/>
+        <Button x:Name="seis" Content="6" HorizontalAlignment="Left" Margin="207,147,0,0" VerticalAlignment="Top" Width="98" Height="48" FontSize="28" BorderBrush="#FF99B4D1" Click="seis_Click" Background="{x:Null}"/>
+        <Button x:Name="três" Content="3" HorizontalAlignment="Left" Margin="207,196,0,0" VerticalAlignment="Top" Width="98" Height="49" FontSize="28" BorderBrush="#FF99B4D1" Click="três_Click" Background="{x:Null}"/>
+        <Button x:Name="nove" Content="9" HorizontalAlignment="Left" Margin="207,99,0,0" VerticalAlignment="Top" Width="98" Height="48" FontSize="28" BorderBrush="#FF99B4D1" Click="nove_Click" Background="{x:Null}"/>
+        <Button x:Name="tangente" Content="tan" HorizontalAlignment="Left" Margin="322,243,0,0" VerticalAlignment="Top" Width="78" Height="48" FontSize="26" BorderBrush="#FF99B4D1" Click="tangente_Click" Background="{x:Null}" FontWeight="Thin"/>
+        <Button x:Name="cosseno" Content="cos" HorizontalAlignment="Left" Margin="322,195,0,0" VerticalAlignment="Top" Width="78" Height="48" FontSize="26" BorderBrush="#FF99B4D1" Click="cosseno_Click" Background="{x:Null}" FontWeight="Thin"/>
+        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top" Width="98" Height="49" FontSize="28" BorderBrush="#FF99B4D1" Click="zero_Click" Background="{x:Null}"/>
+        <Button x:Name="virgula" Content="," HorizontalAlignment="Left" Margin="109,245,0,0" VerticalAlignment="Top" Width="98" Height="49" FontSize="28" BorderBrush="#FF99B4D1" Click="virgula_Click" Background="{x:Null}"/>
+        <Button x:Name="seno" Content="sen" HorizontalAlignment="Left" Margin="322,147,0,0" VerticalAlignment="Top" Width="78" Height="48" FontSize="26" BorderBrush="#FF99B4D1" Click="seno_Click" Background="{x:Null}" FontWeight="Thin"/>
+        <Button x:Name="C" Content="C" HorizontalAlignment="Left" Margin="322,99,0,0" VerticalAlignment="Top" Width="78" Height="48" BorderBrush="#FF99B4D1" FontSize="24" Click="C_Click" Background="{x:Null}"/>
+
+    </Grid>
+</Window>
