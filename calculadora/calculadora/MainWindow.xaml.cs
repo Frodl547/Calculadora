@@ -17,6 +17,9 @@ namespace calculadora
 {
     public partial class MainWindow : Window
     {
+        
+        /* criação de variaveis */
+       
         double resultado_da_conta = 0;
         double conversão = Math.PI / 180;
         bool controle = false;
@@ -138,6 +141,7 @@ namespace calculadora
             }    
         }
 
+
         /* implementação dos botões virtuais */
 
         private void zero_Click(object sender, RoutedEventArgs e)
@@ -250,7 +254,6 @@ namespace calculadora
         {
             resultado.Text = "0";
             controle = false;
-        }
-        
+        }        
     }
 }
